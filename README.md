@@ -12,10 +12,6 @@ The Smile Detection is done in 2 parts:
 
 ### Neural Style Transfer
 
-<div align='center'>
-  <img src = 'image/block_diagram.png' height="200px">
-</div>
-
 #### 1. Content Image and Style Image
 The content image is loaded using API from the local system (saved after performing smile detection) and style image is taken using '' API from net.
 
