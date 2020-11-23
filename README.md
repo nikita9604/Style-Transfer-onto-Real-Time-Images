@@ -34,7 +34,8 @@ style_layers = ['block1_conv1', 'block2_conv1', 'block3_conv1', 'block4_conv1', 
 ```
 
 #### 3. Calculate Style
-The content of an image is represented by the values of the intermediate feature maps. It turns out, the style of an image can be described by the means and correlations across the different feature maps. We calculate a Gram matrix that includes this information by taking the outer product of the feature vector with itself at each location, and averaging that outer product over all locations. This can be implemented concisely using the tf.linalg.einsum function
+The content of an image is represented by the values of the intermediate feature maps. It turns out, the style of an image can be described by the means and correlations across the different feature maps. 
+We calculate a Gram matrix that includes this information by taking the outer product of the feature vector with itself at each location, and averaging that outer product over all locations. This can be implemented concisely using the tf.linalg.einsum function.
 
 #### 4. Optimisation I (Adam's Optimiser) and Optimisation II (Specific Total Variation Weight)
 
