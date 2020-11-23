@@ -17,7 +17,7 @@ The Smile Detection is done in 2 parts:
 </div>
 
 #### 1. Content Image and Style Image
-The content image is loaded using API from the local system (saved after performing smile detection) and style image is taken using '' API from net.
+The content image is loaded using Keras Preprocessing API from the local system (saved after performing smile detection) and style image is taken using Keras Utils API from net.
 
 <div align='center'>
 <img src = 'image/Output_1.PNG' height="300px">
