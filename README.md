@@ -1,4 +1,4 @@
-## Style Transfer onto Real-time Images
+## Style Transfer onto Real-time Images (Modified Neural Style Transfer)
 
 To perform Image Style Transfer onto Real-time captured images upon performing Smile Detection.
 
